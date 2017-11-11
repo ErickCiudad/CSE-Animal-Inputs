@@ -63,7 +63,8 @@ public class Appearance {
 		switch (nbr) {
 		
 		case 1:
-			System.out.println("Dog!");
+//			System.out.println("Dog!");
+			dogPrint();
 			
 			gameChoice = in.next();
 			//This sequence defies all logic, fundamentally at it's core does not make sense
@@ -81,7 +82,8 @@ public class Appearance {
 			break;
 		
 		case 2:
-			System.out.println("Cat!");
+//			System.out.println("Cat!");
+			catPrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("fish")) {
 				
@@ -94,7 +96,8 @@ public class Appearance {
 			break;
 		
 		case 3:
-			System.out.println("Cow!");
+//			System.out.println("Cow!");
+			cowPrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("grass")) {
 				M.questionAnsweredRight = true;
@@ -107,7 +110,8 @@ public class Appearance {
 			////////////////////////////Difficulty 3
 			
 		case 4:
-			System.out.println("Chick!");
+//			System.out.println("Chick!");
+			chickenPrint();
 			gameChoice = in.next();
 			
 			if (gameChoice.equals("seed")) {
@@ -120,7 +124,8 @@ public class Appearance {
 			break;
 		
 		case 5:
-			System.out.println("Horse!");
+//			System.out.println("Horse!");
+			horsePrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("hay")) {
 				score++;
@@ -131,7 +136,8 @@ public class Appearance {
 			break;
 		
 		case 6:
-			System.out.println("Bone!");
+//			System.out.println("Bone!");
+			bonePrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("dog")) {
 				score++;
@@ -142,7 +148,8 @@ public class Appearance {
 			break;	
 
 		case 7:
-			System.out.println("Fish!");
+//			System.out.println("Fish!");
+			fishPrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("cat")) {
 				score++;
@@ -154,7 +161,8 @@ public class Appearance {
 			
 
 		case 8:
-			System.out.println("Grass!");
+//			System.out.println("Grass!");
+			grassPrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("cow")) {
 				score++;
@@ -166,7 +174,8 @@ public class Appearance {
 			
 
 		case 9:
-			System.out.println("Seed!");
+//			System.out.println("Seed!");
+			seedPrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("chick")) {
 				score++;
@@ -178,7 +187,8 @@ public class Appearance {
 			
 
 		case 10:
-			System.out.println("Hay!");
+//			System.out.println("Hay!");
+			hayPrint();
 			gameChoice = in.next();
 			if (gameChoice.equals("horse")) {
 				score++;
@@ -256,7 +266,192 @@ public class Appearance {
 		       }, timeToRun);
 	}
 	
+	public void dogPrint() {
+		
+						
+	System.out.println("-hrr-               ;\\ ");	
+	System.out.println("   		    |' \\  ");
+	System.out.println("_                  ; : ;   ");
+	System.out.println("/ `-.              /: : |  ");
+	System.out.println("|  ,-.`-.          ,': : | ");
+	System.out.println("\\  :  `. `.       ,'-. : | ");
+	System.out.println("\\ ;    ;  `-.__,'    `-.| ");
+	System.out.println("\\ ;   ;  :::  ,::'`:.  `. ");
+	System.out.println("\\ `-. :  `    :.    `.  \\ ");
+	System.out.println("\\   \\    ,   ;   ,:    (\\ ");
+	System.out.println("\\   :., :.    ,'o)): ` `-. ");
+	System.out.println(",/,' ;' ,::\"'`.`---'   `.  `-._  ");
+	System.out.println(",/  :  ; '\"      `;'          ,--`.  ");
+	System.out.println(";/   :; ;             ,:'     (   ,:)  ");
+	System.out.println(",.,:.    ; ,:.,  ,-._ `.     \\\"\"'/  ");
+	System.out.println("'::'     `:'`  ,'(  \\`._____.-'\"'  ");
+	System.out.println("  ;,   ;  `.  `. `._`-.  \\  ");
+	System.out.println("  ;:.  ;:       `-._`-.\\  \\`.  ");
+	System.out.println("   '`:. :        |' `. `\\  ) \\  ");
+	System.out.println("      ` ;:       |    `--\\__,'  ");
+	System.out.println("'`      ,'  ");
+	System.out.println("    ,-'  ");
+
+    /**/
+
+	}
 	
+	public void catPrint() {
+	
+		System.out.println("  ");
+
+		System.out.println("  ^'.           .-	");
+		System.out.println(" / \\ '..----..'`/ \\	");
+		System.out.println(" '  '   /      \\  |	");
+		System.out.println(" \\ , `''         /	");
+		System.out.println(" /  ()    ()    `	");
+		System.out.println("/      _         \\	");
+		System.out.println("'      \\_/         '	");
+		System.out.println("`.    ,_        .`'.	");
+		System.out.println("`-._/ \\,   _.'\\   `.	");
+		System.out.println("  _(__/        `...'^.	");
+		System.out.println("   /    `\\          ,--.'	");
+		System.out.println("  |       `.  /    |     \".	");
+		System.out.println("  \\_| \\_,   ''     '       `	");
+		System.out.println("    `-'\\            `._     \\	");
+		System.out.println("    '   '.             ' --.'	");
+		System.out.println("   /   '  `'--'       ,.    |	");
+		System.out.println("  /    |            .'      /	");
+		System.out.println("__________________________mx	");
+          
+		
+	}
+	
+	public void cowPrint() {
+		
+		System.out.println("  ");
+
+		System.out.println("  ,           ,  ");
+		System.out.println(" /             \\	");
+		System.out.println("((__-^^-,-^^-__))	");
+		System.out.println(" `-_---' `---_-'	");
+		System.out.println("  <__|o` 'o|__>	");
+		System.out.println("     \\  `  /	");
+		System.out.println("      ): :(	");
+		System.out.println("      :o_o:	");
+		System.out.println("       \"-\"   [pb] 	");
+		
+	}
+	
+	public void chickenPrint() {
+
+		System.out.println("  ");
+
+		
+		System.out.println("	      ,~.  ");
+		System.out.println("	      ,-'__ `-,  ");
+		System.out.println("	     {,-'  `. }              ,')  ");
+		System.out.println("	    ,( a )   `-.__         ,',')~,  ");
+		System.out.println("	   <=.) (         `-.__,==' ' ' '}  ");
+		System.out.println("	     (   )                      /)  ");
+		System.out.println("	      `-'\\   ,                    )  ");
+		System.out.println("	          |  \\        `~.        /  ");
+		System.out.println("	          \\   `._        \\      /  ");
+		System.out.println("	           \\     `._____,'    ,'  ");
+		System.out.println("	            `-.             ,'  ");
+		System.out.println("	               `-._     _,-' ");
+		System.out.println("	                   77jj' ");
+		System.out.println("	                  //_|| ");
+		System.out.println("	               __//--'/`          hjw ");
+		System.out.println("	             ,--'/`  ' ");
+	             
+	} 
+	
+	public void horsePrint() {
+	
+		System.out.println("  ");
+		
+		System.out.println("	    /\\,%,_  ");
+		System.out.println("        \\%%%/,\\  ");
+		System.out.println("      _.-\"%%|//%  ");
+		System.out.println("    .'  .-\"  /%%%  ");
+		System.out.println("_.-'_.-\" 0)   \\%%%  ");
+		System.out.println("/.\\.'           \\%%%  ");
+		System.out.println("\\ /      _,      %%%   ");
+		System.out.println("`\"---\"~`\\   _,*'\\%%'   _,--\"\"\"\"-,%%, ");
+		System.out.println("         )*^     `\"\"~~`          \\%%%,  ");
+		System.out.println("       _/                         \\%%%   ");
+		System.out.println("   _.-`/                           |%%,___  ");
+		System.out.println("_.-\"   /      ,           ,        ,|%%   .`\\   ");
+		System.out.println("/\\     /      /             `\\       \\%'   \\ /  ");
+		System.out.println("\\ \\ _,/      /`~-._         _,`\\      \\`\"\"~~`  ");
+		System.out.println("`\"` /-.,_ /'      `~\"----\"~    `\\     \\   ");
+		System.out.println("jgs   \\___,'                       \\.-\"`/  ");
+		System.out.println(" 	                                `--' \\");
+		
+	}
+	
+	public void bonePrint() {
+		System.out.println("  ");
+		
+		System.out.println("			  .-.               .-.   ");
+		System.out.println("		     (   `-._________.-'   )  ");
+		System.out.println("		      >=     _______     =<   ");
+		System.out.println("		 jgs (   ,-'`       `'-,   )  ");
+		System.out.println("		      `-'               `-'   ");
+		
+	}
+	
+	public void fishPrint() {
+		System.out.println("  ");
+		
+		System.out.println("		,-.           ,.---'''^\\                  O   ");
+		System.out.println("        {   \\       ,__\\,---'''''`-.,      O    O    ");
+		System.out.println("         I   \\    K`,'^           _  `'.     o   ");
+		System.out.println("         \\  ,.J..-'`          // (O)   ,,X,    o   ");
+		System.out.println("         /  (_               ((   ~  ,;:''`  o   ");
+		System.out.println("        /   ,.X'.,            \\      ':;;;:  ");
+		System.out.println("       (_../      -._                  ,'`  ");
+		System.out.println("                   K.=,;.__ /^~/___..'`   ");
+		System.out.println("                           /  /`   ");
+		System.out.println("                           ~~~  Zeus  ");
+		
+	}
+	
+	public void grassPrint() {
+		
+		System.out.println("  ");
+
+		
+		System.out.println("		  	  .;;.  ");
+		System.out.println("		   _   ||   ");
+		System.out.println("		   >'. ||  _");
+		System.out.println("		   `> \\||.'< ");
+		System.out.println("		     `>|/ <` ");
+		System.out.println("		      `||/`  ");
+		System.out.println("		^jgs^^^^^^^^^^^  ");
+		
+	}
+	
+	
+	public void seedPrint() {
+		
+		System.out.println("  ");
+
+		System.out.println("/\\ /\\ /\\ ");
+		System.out.println("\\/ \\/ \\/ ");
+	}
+	
+	public void hayPrint() {
+		
+		System.out.println("  ");
+
+		System.out.println("		_________________________ ");
+		System.out.println("	   |						 | ");
+		System.out.println("	   |						 | ");
+		System.out.println("	   |						 | ");
+		System.out.println("	   |		   HAY			 | ");
+		System.out.println("	   |						 | ");
+		System.out.println("	   |						 | ");
+		System.out.println("	   |_________________________|  ");
+
+		
+	}
 	
 //	public void timeStuff() {
 //		int interval = difficultyTime * 1000; // 5 sec

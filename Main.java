@@ -24,7 +24,7 @@ public class Main {
 		//Can't make it public when main method is in?
 				
 		Scanner in = new Scanner(System.in);
-
+		
 		do {
 			System.out.println("Welcome to Animal Inputs!");
 			System.out.println("1: Start the game");
